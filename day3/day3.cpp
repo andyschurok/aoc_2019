@@ -10,6 +10,9 @@
 #include <utility>
 #include <vector>
 
+int INT_MAX = 999;
+int INT_MIN = -999;
+
 void increment(char dir, int* x, int* y) {
 	if (dir == 'R') {
 		int v = *x + 1;
